@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#votes {
+    font-size: 20px;
+    font-weight: bolder;
+}
+body {
+    text-align: center;
+}
+button {
+    padding: 10px 15px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:focus{
+    outline: none;
+}
+#upvote {
+    background-color: green;
+}
+#downvote {
+    background-color: red;
+}
